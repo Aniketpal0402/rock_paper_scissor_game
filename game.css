@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin:0px;
+   text-align: center;
+   font-family:cursive;
+}
+
+#title{
+    background-color: rgb(9, 9, 82);
+    font-size:3rem;
+    text-align: center;
+    color: aliceblue;
+    height: auto;
+}
+
+#container{
+    /* border: 2px solid black; */
+    height:18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3.5rem;
+}
+
+#obj1{
+    border: 2px solid black;
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    background-image:url(https://wrpsa.com/wp-content/uploads/2021/08/rock.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+#obj1:hover{
+    border: 8px solid rgb(27, 106, 17);
+    cursor: pointer;
+
+}
+#obj2{
+    border: 2px solid black;
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    background-image:url(https://wrpsa.com/wp-content/uploads/2021/08/paper.png);
+    background-position:center;
+    background-size:175px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+#obj2:hover{
+    border: 8px solid rgb(27, 106, 17);
+    cursor: pointer;
+}
+#obj3{
+    border: 2px solid black;
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    background-image:url(https://wrpsa.com/wp-content/uploads/2021/08/scissors.png);
+    background-position:center;
+    background-size:175px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+#obj3:hover{
+    border: 8px solid rgb(27, 106, 17);
+    cursor: pointer;
+}
+#text{
+    background-color: rgb(9, 9, 82);
+    font-size:2rem;
+    text-align: center;
+    color: aliceblue;
+    text-align: center;
+    display:inline-block;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    font-size:40px;
+}
